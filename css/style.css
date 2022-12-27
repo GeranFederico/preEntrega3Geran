@@ -1,3 +1,22 @@
+.nav-container{
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #1b1b1b;
+}
+
+.portada {
+    background-size: cover;
+    background-position: center;
+    width: 100vh;
+}
+
 .imgProductos {
     width: 150px;
     height: 150px;
