@@ -47,6 +47,12 @@ const mostrarProductos = () => {
         const boton = document.getElementById(`boton${producto.id}`);
         boton.addEventListener("click", () => {
             agregarAlCarrito(producto.id);
+            Toastify( {
+                text: "Producto Agregado al Carrito",
+                duration: 2000,
+                position: "right",
+                gravity: "bottom"
+            }).showToast();
         })
     })
 }
@@ -140,3 +146,7 @@ const calcularTotal = () => {
     })
     total.innerHTML = ` $${totalCompra}`;
 }
+
+setTimeout (() => {
+    document.body.style.backgroundColor = "red";
+}, 3000)
