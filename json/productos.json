@@ -1,0 +1,8 @@
+[
+    {"id":1, "nombre":"Los Compas y el diamantito legendario", "precio":4500, "img":"img/diamantitolegendario.jpg"},
+    {"id":2, "nombre":"Los Compas escapan de la prisión", "precio":4700, "img":"img/escapandeprision.jpg"},
+    {"id":3, "nombre":"Los Compas y la cámara del tiempo", "precio":5000, "img":"img/camaradeltiempo.jpg"},
+    {"id":4, "nombre":"Los Compas y la Maldición de Mikecrack", "precio":7000, "img":"img/maldicionmikecrack.jpg"},
+    {"id":5, "nombre":"Los Compas y la Entidad.Exe", "precio":5500, "img":"img/entidadexe.webp"},
+    {"id":6, "nombre":"Los Compas perdidos en el espacio", "precio":6500, "img":"img/perdidoespacio.jpg"}
+]
